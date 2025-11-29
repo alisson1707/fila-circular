@@ -51,8 +51,7 @@ class Fila{
         }
         return this.elementos[0];
     }
-   
-
+    
     // 4. Verificar se a fila está vazia
     estaVazia(): boolean {
         return this.elementos.length === 0;
@@ -78,7 +77,7 @@ class Fila{
         return this.capacidade;
     }
 
-// 9. Exibir quantos elementos ainda podem ser inseridos
+    // 9. Exibir quantos elementos ainda podem ser inseridos
     espacoDisponivel(): number {
         return this.capacidade - this.elementos.length;
     }
@@ -104,5 +103,6 @@ fila.mostrar(); // [20, 30, 40, 50]
 console.log('Tamanho:', fila.tamanho()); // 4
 console.log('Espaço disponível:', fila.espacoDisponivel()); // 1
 
-fila.enqueue(60); // fila cheia
+fila.enqueue(60)
+fila.enqueue(70);
 fila.mostrar(); // [20, 30, 40, 50, 60]
