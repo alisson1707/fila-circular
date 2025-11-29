@@ -74,8 +74,8 @@ console.log("Elemento da frente:", fila.frente()); // 25
 
 Esta implementação foi realizada como **atividade em dupla** da disciplina de **Estrutura de Dados**, pelos seguintes alunos:
 
-- Aluno : Álisson Ramires 
-- Aluna: Maria Clara
+- Aluno : Álisson Ramires Sena da Silva
+- Aluna: Maria Clara Almeida Martins
 
 Disciplina: Estrutura de Dados  
 Professor(a): Jonathas Jivago
