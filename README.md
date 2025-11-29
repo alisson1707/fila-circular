@@ -4,7 +4,7 @@ Foi criado uma classe que implementa uma **fila-circular** com capacidade limita
 
 ## Estrutura do Projeto
 
-O código que implementa uma **fila circular**, está localizado em `source/fila.ts` em "fila.ts". 
+O código que implementa uma **fila circular**, está localizado em `source/fila.ts` . 
 
 ## Descrição 
 
