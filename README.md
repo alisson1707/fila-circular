@@ -17,7 +17,7 @@ A classe `FilaCircular` permite:
 - Mostrar todos os elementos da fila (`mostrar`)
 - Retornar a capacidade máxima da fila (`capacidadeMaxima`)
 
-## Exemplo de uso
+## Primeiro exemplo de uso
 
 ```ts
 let fila = new FilaCircular(5);
@@ -43,7 +43,32 @@ fila.enqueue(60);
 fila.enqueue(70); // fila cheia, não será adicionado
 fila.mostrar(); // [20, 30, 40, 50, 60]
 
+## Segundo exemplo de uso
 
+```ts
+let fila = new Fila(4);
+
+fila.enqueue(5);
+fila.enqueue(15);
+fila.enqueue(25);
+fila.mostrar(); // [5, 15, 25]
+
+console.log("Primeiro da fila:", fila.frente()); // 5
+
+fila.dequeue(); // remove 5
+fila.dequeue(); // remove 15
+fila.mostrar(); // [25]
+
+fila.enqueue(35);
+fila.enqueue(45);
+fila.enqueue(55);
+fila.mostrar(); // [25, 35, 45, 55]
+
+fila.enqueue(65); // fila cheia
+
+console.log("Tamanho atual:", fila.tamanho()); // 4
+console.log("Espaço disponível:", fila.espacoDisponivel()); // 0
+console.log("Elemento da frente:", fila.frente()); // 25
 
 ## Atividade Acadêmica
 
