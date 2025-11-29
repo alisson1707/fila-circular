@@ -42,10 +42,12 @@ console.log('Espaço disponível:', fila.espacoDisponivel()); // 1
 fila.enqueue(60); 
 fila.enqueue(70); // fila cheia, não será adicionado
 fila.mostrar(); // [20, 30, 40, 50, 60]
+```
 
 ## Segundo exemplo de uso
 
 ```ts
+
 let fila = new Fila(4);
 
 fila.enqueue(5);
@@ -69,6 +71,7 @@ fila.enqueue(65); // fila cheia
 console.log("Tamanho atual:", fila.tamanho()); // 4
 console.log("Espaço disponível:", fila.espacoDisponivel()); // 0
 console.log("Elemento da frente:", fila.frente()); // 25
+```
 
 ## Atividade Acadêmica
 
