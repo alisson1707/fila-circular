@@ -2,6 +2,10 @@
 
 Foi criado uma classe que implementa uma **fila-circular** com capacidade limitada.
 
+## Estrutura do Projeto
+
+O código que implementa uma **fila circular**, está localizado em `source/fila.ts` em "fila.ts". 
+
 ## Descrição 
 
 A classe `FilaCircular` permite:
@@ -38,6 +42,7 @@ console.log('Espaço disponível:', fila.espacoDisponivel()); // 1
 fila.enqueue(60); 
 fila.enqueue(70); // fila cheia, não será adicionado
 fila.mostrar(); // [20, 30, 40, 50, 60]
+
 
 
 ## Atividade Acadêmica
