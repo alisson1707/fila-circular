@@ -6,6 +6,14 @@ Foi criado uma classe que implementa uma **fila-circular** com capacidade limita
 
 O código que implementa uma **fila circular**, está localizado em `source/fila.ts` . 
 
+## Como Executar o Projeto
+
+### Executar a lógica da fila circular (TypeScript → JavaScript)
+npm run run
+
+### Executar o projeto no navegador (Parcel + index.html)
+npm start
+
 ## Descrição 
 
 A classe `FilaCircular` permite:

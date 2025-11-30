@@ -4,8 +4,9 @@
   "description": "",
   "source": "./source/index.html",
   "scripts": {
-  "run": "tsc source/fila.ts && node source/fila.js"
-},
+    "start": "parcel source/index.html",
+    "run": "tsc source/fila.ts && node source/fila.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
